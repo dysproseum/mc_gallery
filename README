@@ -1,0 +1,28 @@
+MindComet Gallery Module
+ExpressionEngine
+
+----------------------
+     Target Files
+----------------------
+
+/jquery/
+/system/modules/mc_gallery/mcp.mc_gallery.php
+/system/modules/mc_gallery/mod.mc_gallery.php
+/system/modules/mc_gallery/cropcanvas/
+/system/extensions/ext.mc_gallery.php
+/system/language/english/lang.mc_gallery.php
+/system/includes/connect.php
+/images/mc_gallery/
+
+Note: The /images/mc_gallery folder is required to store gallery images and must be created with 777 permissions.
+Also: The /system/config.php file must be writable as well.
+
+----------------------
+    Installation
+----------------------
+1. Copy above files into target locations on server, creating new folders as necessary
+2. Confirm database info is correct in /jquery/mc_config.php
+3. Activate module
+4. Fill out settings form in module control panel (note the location of jquery and mc_gallery folders)
+5. Activate extension
+6. In extension settings, choose the weblog(s) to associate galleries with (it is recommended to create a new Gallery weblog for this purpose)
